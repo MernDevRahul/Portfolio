@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
+import { FaGithub, FaLinkedin, } from "react-icons/fa";
 import { IoMenu } from "react-icons/io5";
 import { RxCross2 } from "react-icons/rx";
 
@@ -40,12 +41,10 @@ export default function Navbar() {
             ))}
             <div className="flex items-center space-x-4 pl-4 border-l border-white/10">
               <a href="https://github.com" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-white transition-colors">
-                {/* <Github size={20} /> */}
-                Github
+                <FaGithub size={20} />
               </a>
               <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-white transition-colors">
-                {/* <Linkedin size={20} /> */}
-                Linkedin
+                <FaLinkedin size={20} />
               </a>
             </div>
           </div>
