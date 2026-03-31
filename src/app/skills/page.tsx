@@ -1,7 +1,7 @@
 import Section from "../components/Section";
 import SkillBadge from "../components/SkillBadge";
 import { AiFillLayout } from "react-icons/ai";
-import { FaDatabase, FaServer, FaWrench } from "react-icons/fa";
+import { FaDatabase, FaServer, FaWrench, FaRocket } from "react-icons/fa";
 
 
 export default function Skills() {
@@ -9,22 +9,27 @@ export default function Skills() {
     {
       title: "Frontend Development",
       icon: AiFillLayout,
-      skills: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Vue.js", "HTML/CSS"],
+      skills: ["React", "Vite", "Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "HTML/CSS"],
     },
     {
       title: "Backend Development",
       icon: FaServer,
-      skills: ["Node.js", "Express", "Python", "Django", "Go", "REST APIs", "GraphQL"],
+      skills: ["Node.js", "Express", "REST APIs"],
     },
     {
-      title: "Database & Cloud",
+      title: "Database & Caching",
       icon: FaDatabase,
-      skills: ["PostgreSQL", "MongoDB", "Redis", "AWS", "Vercel", "Docker", "Firebase"],
+      skills: ["MongoDB", "PostgreSQL", "Redis", "Prisma ORM"],
+    },
+    {
+      title: "Development & DevOps",
+      icon: FaRocket,
+      skills: ["Vercel", "Render", "Netlify", "VPS (Linux-based deployment)", "Docker"],
     },
     {
       title: "Tools & Others",
       icon: FaWrench,
-      skills: ["Git", "GitHub Actions", "Jest", "Cypress", "Figma", "Linux", "Webpack"],
+      skills: ["Git", "GitHub Actions", "Linux"],
     },
   ];
 

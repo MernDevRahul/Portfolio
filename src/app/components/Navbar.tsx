@@ -20,12 +20,12 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 w-full z-50 glass">
+    <nav className="fixed top-0 w-full z-50 bg-black/50 backdrop-blur-lg border-b border-white/5">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="text-2xl font-bold tracking-tighter">
-            Portfolio<span className="text-blue-500">.</span>
+            Rahul Shrivastav<span className="text-blue-500">.</span>
           </Link>
 
           {/* Desktop Nav */}
@@ -68,7 +68,7 @@ export default function Navbar() {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
-            className="md:hidden absolute top-20 left-0 w-full glass border-t border-white/10"
+            className="md:hidden absolute top-20 left-0 w-full bg-black/90 backdrop-blur-2xl border-t border-white/10 shadow-2xl"
           >
             <div className="px-6 py-4 space-y-4 flex flex-col">
               {navLinks.map((link) => (

@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
         <div className="flex flex-col items-center md:items-start">
           <Link href="/" className="text-xl font-bold tracking-tighter">
-            Portfolio<span className="text-blue-500">.</span>
+            Rahul Shrivastav<span className="text-blue-500">.</span>
           </Link>
           <p className="text-sm text-gray-400 mt-2 text-center md:text-left">
             Building digital products, brands, and experience.
@@ -15,16 +15,13 @@ export default function Footer() {
         </div>
 
         <div className="flex items-center space-x-6">
-          <a href="https://github.com" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-white transition-colors">
+          <a href="https://github.com/MernDevRahul" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-white transition-colors">
             <FaGithub size={20} />
           </a>
           <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-white transition-colors">
             <FaLinkedin size={20} />
           </a>
-          <a href="https://twitter.com" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-white transition-colors">
-            <FaTwitter size={20} />
-          </a>
-          <a href="mailto:hello@example.com" className="text-gray-400 hover:text-white transition-colors">
+          <a href="mailto:tech.rahul.shrivastav@gmail.com" className="text-gray-400 hover:text-white transition-colors">
             <FaMailBulk size={20} />
           </a>
         </div>

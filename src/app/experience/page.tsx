@@ -5,24 +5,38 @@ export default function Experience() {
   const experiences = [
     {
       id: 1,
-      role: "Senior Full Stack Engineer",
-      company: "TechNova Solutions",
-      period: "Jan 2023 - Present",
-      description: "Leading the development of scalable cloud applications using Next.js and Node.js. Architected microservices improving system response time by 40% and mentored junior developers.",
+      role: "Full Stack Web Developer",
+      company: "National Marketing Projects Inc.",
+      period: "Nov 2024 - Present",
+      description: ["Collaborating with a team to create and maintain scalable web applications using various technologies",
+        "Creating responsive and efficient web applications with a strong emphasis on user experience and architecture",
+        "Managing and maintaining VPS servers to ensure efficient deployment of web applications",
+        "Making updates, fixes, and performance enhancements to existing web applications",
+        "Creating applications on both frontend and backend to provide a complete solution"
+      ],
     },
     {
       id: 2,
-      role: "Frontend Developer",
-      company: "Creative Digital Agency",
-      period: "Jun 2020 - Dec 2022",
-      description: "Built pixel-perfect, highly responsive marketing sites and web applications. Migrated legacy jQuery codebases to React and introduced standardized component libraries.",
+      role: "Web Developer",
+      company: "Orangus India Pvt. Ltd.",
+      period: "Jan 2024 - Oct 2024",
+      description: ["Developed and delivered multiple client-based websites according to the business requirements",
+        "Designed responsive and visually appealing user interfaces by applying the latest frontend development techniques",
+        "Integrated backend functionalities and APIs to develop end-to-end solutions",
+        "Worked in collaboration with clients to successfully deliver the projects on time.",
+        "Emphasized on writing clean, maintainable, and reusable code"
+      ],
     },
     {
       id: 3,
-      role: "Software Engineering Intern",
-      company: "Global Innovations Inc.",
-      period: "May 2019 - Aug 2019",
-      description: "Assisted in building internal dashboards for data analytics using Vue.js and Python. Contributed to writing unit tests and debugging legacy code.",
+      role: "Web Developer Intern",
+      company: "Reyedin Techstack Pvt. Ltd",
+      period: "Oct 2023 - Dec 2023",
+      description: ["Helped to develop the Learning Management System (LMS) with the guidance of senior engineers",
+        "Assisted in the development of front-end components and back-end functionalities",
+        "Acquired practical experience working with actual development processes and collaborating with teams",
+        "Acquired the best practices for coding, debugging, and the entire SDLC"
+      ],
     },
   ];
 
@@ -54,7 +68,11 @@ export default function Experience() {
             <h3 className="text-xl text-blue-400 font-medium mb-4">{exp.company}</h3>
             
             <p className="text-gray-400 leading-relaxed text-lg">
-              {exp.description}
+              <ul className="list-disc pl-5 space-y-2">
+                {exp.description.map((desc, index) => (
+                  <li key={index}>{desc}</li>
+                ))}
+              </ul>
             </p>
           </div>
         ))}

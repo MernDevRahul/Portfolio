@@ -9,10 +9,10 @@ export default function Home() {
       {/* Hero Section */}
       <Section id="home" className="min-h-[80vh] flex flex-col justify-center">
         <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-6">
-          Hi, I am <span className="text-blue-500">John Doe</span>
+          Hi, I am <span className="text-blue-500">Rahul Shrivastav</span>
         </h1>
         <p className="text-xl md:text-2xl text-gray-400 max-w-2xl mb-10 leading-relaxed">
-          Full-Stack Developer building modern, responsive, and high-performance digital experiences.
+          A Full Stack Developer with 2+ years of experience in developing scalable and high-performance web applications. My expertise lies in the MERN technology stack, along with other cutting-edge frameworks such as Next.js and Prisma.
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
           <Link

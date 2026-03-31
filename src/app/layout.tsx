@@ -15,8 +15,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio | Web Developer",
+  title: "Rahul Shrivastav | Web Developer",
   description: "Modern portfolio showcasing my projects, skills, and experience.",
+  icons:{
+    icon:"/portfolio-favicon.webp"
+  }
 };
 
 export default function RootLayout({

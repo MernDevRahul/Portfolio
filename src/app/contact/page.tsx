@@ -1,7 +1,7 @@
 "use client";
 
 import Section from "../components/Section";
-import { MdMarkEmailUnread, MdSend } from "react-icons/md";
+import { MdMarkEmailUnread, MdPhoneInTalk, MdSend } from "react-icons/md";
 import { FaMapPin } from "react-icons/fa";
 
 export default function Contact() {
@@ -27,9 +27,22 @@ export default function Contact() {
               </div>
               <div>
                 <h3 className="text-lg font-medium text-white">Email</h3>
-                <p className="text-gray-400 mt-1">hello@example.com</p>
-                <a href="mailto:hello@example.com" className="text-blue-400 text-sm hover:underline mt-2 inline-block">
+                <p className="text-gray-400 mt-1">tech.rahul.shrivastav@gmail.com</p>
+                <a href="mailto:tech.rahul.shrivastav@gmail.com" className="text-blue-400 text-sm hover:underline mt-2 inline-block">
                   Send an email
+                </a>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-4">
+              <div className="p-3 rounded-full bg-blue-500/10 text-blue-400">
+                <MdPhoneInTalk size={24} />
+              </div>
+              <div>
+                <h3 className="text-lg font-medium text-white">Phone</h3>
+                <p className="text-gray-400 mt-1">+91 8368037797</p>
+                <a href="tel:+918368037797" className="text-blue-400 text-sm hover:underline mt-2 inline-block">
+                  Call me
                 </a>
               </div>
             </div>
@@ -40,7 +53,7 @@ export default function Contact() {
               </div>
               <div>
                 <h3 className="text-lg font-medium text-white">Location</h3>
-                <p className="text-gray-400 mt-1">San Francisco, CA</p>
+                <p className="text-gray-400 mt-1">New Delhi, Delhi</p>
                 <p className="text-gray-500 text-sm mt-2">Available for remote work</p>
               </div>
             </div>
@@ -55,7 +68,7 @@ export default function Contact() {
                   type="text" 
                   id="name" 
                   className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500/50 transition-all"
-                  placeholder="John Doe"
+                  placeholder="[Your Name]"
                   required
                 />
               </div>
@@ -65,7 +78,7 @@ export default function Contact() {
                   type="email" 
                   id="email" 
                   className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500/50 transition-all"
-                  placeholder="john@example.com"
+                  placeholder="[EMAIL_ADDRESS]"
                   required
                 />
               </div>

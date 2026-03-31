@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { FaExternalLinkAlt } from "react-icons/fa";
+import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 import Image from "next/image";
 
 interface ProjectCardProps {
@@ -69,8 +69,7 @@ export default function ProjectCard({
               rel="noreferrer"
               className="flex items-center gap-2 text-sm font-medium text-white hover:text-blue-400 transition-colors"
             >
-              {/* <Github size={18} /> */} 
-              Github
+              <FaGithub size={18} /> 
               Code
             </a>
           )}
