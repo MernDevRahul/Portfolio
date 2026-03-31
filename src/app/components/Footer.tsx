@@ -28,7 +28,7 @@ export default function Footer() {
       </div>
       <div className="max-w-7xl mx-auto px-6 mt-8 flex justify-center md:justify-end">
         <p className="text-xs text-gray-500">
-          © {new Date().getFullYear()} John Doe. All rights reserved.
+          © {new Date().getFullYear()} Rahul Shrivastav. All rights reserved.
         </p>
       </div>
     </footer>
